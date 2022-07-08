@@ -9,6 +9,9 @@ pip install face_recognition
 pip install scipy
 pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.99-cp310-cp310-win_amd64.whl
 pip install flask
+pip install gunicorn
+pip freeze > requirements.txt
+
 
 ```
 
@@ -36,20 +39,7 @@ C:
  > Returns Running on http://127.0.0.1:8050
 
 ```
-D:
-pip freeze > requirements.txt
 
- > Create Requirement text file
-```
-
-
-```
-E:
- pip3 install gunicorn  
-
- > keep python app live with Gunicorn
-
- ```
 
 
 ## ***PREVIEW***
@@ -77,4 +67,8 @@ E:
 
 - [x] Build Image Verify API
 
-- [ ] Launch the project on a live server.
+- [x] Launch the project on a live server.
+
+
+## LIVE API ENDPOINT
+https://my-facial-recognition-api.herokuapp.com/api/v1/image_verify
