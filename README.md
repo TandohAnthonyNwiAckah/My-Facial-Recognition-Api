@@ -43,6 +43,15 @@ pip freeze > requirements.txt
 ```
 
 
+```
+E:
+ pip3 install gunicorn  
+
+ > keep python app live with Gunicorn
+
+ ```
+
+
 ## ***PREVIEW***
 
 | SUCCESS RESPONSE | FAILED RESPONSE |
