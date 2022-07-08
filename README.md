@@ -5,7 +5,6 @@
 ## REQUIREMENT 
 
 ```
-pip install opencv-python
 pip install face_recognition
 pip install scipy
 pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.99-cp310-cp310-win_amd64.whl
@@ -61,8 +60,8 @@ C:
 
 ## TODO
 
-[ ] Build Image Verify
+[] Build Image Verify
 
-[ ] Build Image Verify API
+[] Build Image Verify API
 
 [x] Launch the project on a live server.
