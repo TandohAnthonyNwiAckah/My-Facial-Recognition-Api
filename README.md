@@ -35,8 +35,12 @@ C:
  ```
  > Returns Running on http://127.0.0.1:8050
 
+```
+D:
+pip freeze > requirements.txt
 
-
+ > Create Requirement text file
+```
 
 
 ## ***PREVIEW***
