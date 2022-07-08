@@ -60,8 +60,8 @@ C:
 
 ## TODO
 
-[] Build Image Verify
+- [ ] Build Image Verify
 
-[] Build Image Verify API
+- [ ] Build Image Verify API
 
-[x] Launch the project on a live server.
+- [x] Launch the project on a live server.
