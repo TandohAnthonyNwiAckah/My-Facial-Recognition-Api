@@ -50,8 +50,6 @@ def onCreate(src_old, src_new):
 
     result= new_image_src(src_new,  src_old_encodings)
 
- 
-
     return result
 
 if __name__ == "__main__":

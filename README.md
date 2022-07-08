@@ -9,7 +9,44 @@ pip install opencv-python
 pip install face_recognition
 pip install scipy
 pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.99-cp310-cp310-win_amd64.whl
+pip install flask
+
 ```
+
+## TESTING
+
+ 
+```
+A:
+python image_verify.py public/img/lng.jpg   public/img/doc.jpg
+```
+> Returns Unsuccessful Image Matching  !! 
+
+
+
+```
+B :
+python image_verify.py public/img/lng.jpg   public/img/lng.jpg
+```
+> Returns Successful Image Matching  !! 
+
+```
+C:
+ python api.py
+ ```
+ > Returns Running on http://127.0.0.1:8050
+
+
+
+
+
+## ***PREVIEW***
+
+| SUCCESS RESPONSE | FAILED RESPONSE |
+|     ------------- | ------------- |
+| ![Main Page](public/screenshot/true.PNG)| ![Main Page](public/screenshot/false.PNG)|
+
+
 
 
 ## TOOLS & PLATFORM
@@ -26,20 +63,6 @@ pip install https://github.com/jloh02/dlib/releases/download/v19.22/dlib-19.22.9
 
 [ ] Build Image Verify
 
-[x] Build Image Verify API
+[ ] Build Image Verify API
 
 [x] Launch the project on a live server.
-
-
-## TESTING
-
-```
-python image_verify.py public/img/lng.jpg   public/img/doc.jpg
-```
-> Returns Unsuccessful Image Matching  !! 
-
-
-```
-python image_verify.py public/img/lng.jpg   public/img/lng.jpg
-```
-> Returns Successful Image Matching  !! 
