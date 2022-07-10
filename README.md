@@ -66,9 +66,9 @@ C:
 
 - [x] Launch the project on a live server.
 
-- [] Android Client App.
+- [ ] Android Client App.
 
-- [] IOS Client App.
+- [ ] IOS Client App.
 
 
 
