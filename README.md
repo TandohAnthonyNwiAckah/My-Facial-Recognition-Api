@@ -66,6 +66,13 @@ C:
 
 - [x] Launch the project on a live server.
 
+- [] Android Client App.
+
+- [] IOS Client App.
+
+
+
+
 
 ## LIVE API ENDPOINT
 https://my-facial-recognition-api.herokuapp.com/api/v1/image_verify
